@@ -1,0 +1,12 @@
+  221  touch cli_notes.md
+  222  vi cli_notes.md
+  223  mkdir notes
+  224  mv cli_notes.md notes/cli_notes.md
+  225  cd notes
+  226  cp cli_notes.md cli_notes_2.md
+  227  mv cli_notes_2.md cli_commands.md
+  228  ls
+  229  rm cli_notes.md
+  230  cat cli_commands.md
+  231  cd ..
+  232  rm -r notes
